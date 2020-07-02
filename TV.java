@@ -1,6 +1,7 @@
 package JC;
 
 public class TV {
+    
     int channel;
 
     public TV() {}
@@ -11,7 +12,6 @@ public class TV {
 
     public void channelUp() {
         channel = channel + 1;
-
     }
 
     public void channelDown() {
